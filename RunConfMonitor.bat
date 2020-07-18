@@ -16,7 +16,7 @@ Set base_folder=D:\base1c\agrorus\AGR_BUH_OSN
 ========================================================================================
 
 
-rem %bin_file% ENTERPRISE /F %base_folder% /N "Dump" /P "Badi80" /DisableStartupMessages /Execute "%bat_path%ConfMonitor.epf" /C "Hello World!" /Out "%bat_path%%base_name%_monitor.log"
+rem %bin_file% ENTERPRISE /F %base_folder% /N "Dump" /P "" /DisableStartupMessages /Execute "%bat_path%ConfMonitor.epf" /C "Hello World!" /Out "%bat_path%%base_name%_monitor.log"
 %bin_file% ENTERPRISE /F %base_folder% /N "Dump" /P "Badi80" /DisableStartupMessages /Execute "%bat_path%ConfMonitor.epf" /Out "%bat_path%%base_name%_monitor.log"
 
 
